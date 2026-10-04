@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio - Práctica 2</title>
+    <link rel="icon" type="image/png" href="img/icono1.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Nunito:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container" id="contenedor">
+        
+        <!-- HEADER OBLIGATORIO -->
+        <header class="panel" style="text-align: center; margin-bottom: 20px;">
+            <h1 class="main-title" style="margin-bottom: 0;">Práctica 2: Desarrollo Web</h1>
+        </header>
+
+        <!-- NAVEGACIÓN -->
+        <nav class="navbar navbar-expand-lg panel" style="padding: 10px; margin-bottom: 20px;">
+            <div class="container-fluid">
+                <h2 class="navbar-brand" style="font-family: 'Fredoka One'; color: #929a68;">✿ Menú</h2>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+                        <li class="nav-item"><a class="nav-link" href="objetivo.html">Objetivo</a></li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Integrantes</a>
+                            <ul class="dropdown-menu" style="background-color: #fdfcf9; border: 2px solid #cbd0a7;">
+                                <li><a class="dropdown-item" href="sitio.html">Jessica</a></li>
+                                <li><a class="dropdown-item" href="integrante2.html">Integrante 2</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item"><a class="nav-link" href="mapa_sitio.html">Mapa de Sitio</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div class="row">
+            <!-- SIDEBAR GENERAL -->
+            <aside id="sidebar" class="col-md-4">
+                <div class="panel" style="text-align: center;">
+                    <div class="panel-title">Materia</div>
+                    <p><strong>Aplicaciones web</strong></p>
+                    <p>Universidad Tecnológica de Ciudad Juárez</p>
+                </div>
+            </aside>
+
+            <!-- CONTENIDO PRINCIPAL -->
+           <!-- CONTENIDO PRINCIPAL (Reemplaza el <main> en mapa_sitio.html) -->
+            <main id="content" class="col-md-8">
+                <div class="panel">
+                    <h1 class="main-title" style="font-size: 2rem;">Mapa de Sitio</h1>
+                    <hr class="separador">
+                    
+                    <p>A continuación se muestra la estructura general de este sitio web. Haz clic en cualquier enlace para ir directamente a esa página:</p>
+
+                    <!-- MAPA DE SITIO USANDO LISTAS ANIDADAS (Como pide la rúbrica) -->
+                    <div style="background-color: #f2f3e6; padding: 20px; border-radius: 10px; border: 1px dashed #cbd0a7;">
+                        <ul style="list-style-type: square; font-size: 1.1rem;">
+                            <li><strong><a href="principal.html">Inicio (Página Principal)</a></strong>
+                                <ul style="margin-top: 10px; margin-bottom: 10px;">
+                                    <li><a href="objetivo.html">Objetivo de la práctica</a></li>
+                                    
+                                    <li style="margin-top: 10px;"><strong>Páginas de los Integrantes:</strong>
+                                        <ul>
+                                            <li><a href="sitio.html">Perfil de Jessica Ramírez</a></li>
+                                            <li><a href="integrante2.html">Perfil de Integrante 2</a></li>
+                                        </ul>
+                                    </li>
+                                    
+                                    <li style="margin-top: 10px;"><a href="mapadelsitio.html">Mapa de Sitio (Página actual)</a></li>
+                                </ul
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+            </main>
+        </div>
+
+        <footer class="panel" style="text-align: center; margin-top: 20px;">
+            <p style="margin-bottom: 0; font-weight: bold; color: #929a68;">Diseñado por el Equipo - UTCJ 2026</p>
+        </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

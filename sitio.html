@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jessica's Site (Práctica 2)</title>
+    <!-- Icono personalizado en la barra de título -->
+    <link rel="icon" type="image/png" href="img/icono1.png">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Nunito:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            background: repeating-linear-gradient(
+                90deg,
+                #e8ecd9,
+                #e8ecd9 15px,
+                #f4f5ed 15px,
+                #f4f5ed 30px);
+                
+            font-family: 'Nunito', sans-serif;
+            color: #5c5c5c;
+            margin: 0;
+            padding: 20px 0;
+        }
+
+        .panel {
+            background-color: #fdfcf9;
+            border: 2px solid #cbd0a7;
+            border-radius: 12px;
+            padding: 15px;
+            margin-bottom: 20px;
+            box-shadow: 3px 3px 0px rgba(203, 208, 167, 0.5);
+        }
+
+        .panel-title {
+            background-color: #f2f3e6;
+            border: 1px dashed #cbd0a7;
+            border-radius: 8px;
+            font-family: 'Fredoka One', cursive;
+            color: #929a68;
+            text-align: center;
+            padding: 5px;
+            margin-bottom: 15px;
+            font-size: 1.1rem;
+            letter-spacing: 1px;
+        }
+
+        h1.main-title {
+            font-family: 'Fredoka One', cursive;
+            color: #929a68;
+            text-align: center;
+            font-size: 2.5rem;
+            letter-spacing: 2px;
+            text-shadow: 2px 2px #fdfcf9, 4px 4px #cbd0a7;
+            margin-bottom: 20px;
+        }
+
+        h3 {
+            font-family: 'Fredoka One', cursive;
+            color: #d19a9a;
+            font-size: 1.2rem;
+            margin-top: 15px;
+        }
+
+        .foto_perfil {
+            width: 100%;
+            max-width: 300px;
+            border-radius: 8px;
+            border: 3px solid #cbd0a7;
+            transition: transform 0.3s ease; 
+        }
+
+        .foto_perfil:hover {
+            transform: scale(1.02);
+            border-color: #d19a9a;
+        }
+
+        a { color: #b88686;
+            text-decoration: none; 
+            font-weight: bold; }
+
+        a:hover { 
+            color: #929a68;
+            text-decoration: underline dashed;
+        }
+
+        ul, ol {
+            padding-left: 20px; 
+            font-size: 0.95rem; 
+        }
+
+        table {
+            width: 100%; 
+            font-size: 0.85rem; 
+            border-collapse: separate; 
+            border-spacing: 0; 
+            margin-top: 15px; 
+        }
+
+        th, td { 
+            border: 1px dashed #cbd0a7;
+            padding: 10px; 
+            text-align: left; 
+        }
+
+        th { 
+            background-color: #f2f3e6; 
+            font-family: 'Fredoka One', cursive; 
+            color: #929a68; 
+            text-align: center; 
+        }
+
+        td { background-color: #fff; }
+
+        .quote-box {
+            font-style: italic;
+            text-align: center;
+            background-color: #f9f0f0;
+            padding: 10px;
+            border-radius: 10px;
+            border-left: 4px solid #d19a9a;
+            margin: 15px 0;
+        }
+
+        hr.separador {
+            border-top: 2px dashed #cbd0a7;
+            margin: 20px 0;
+            opacity: 1;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="row">
+            
+            <!-- Columna de la izquierdaaa-->
+            <div class="col-md-3">
+                <div class="panel">
+                    <div class="panel-title">Hobbies</div>
+                    <ul>
+                        <li>Escuchar música</li>
+                        <li>Jugar Roblox</li>
+                        <li>Jugar Tetris</li>
+                        <li>Jugar Sudoku</li>
+                        <li>Jugar Corazón de Melón</li>
+                        <li>Ver películas y series</li>
+                        <li>Dibujar</li>
+                        <li>Hacer journaling</li>
+                        <li>Leer novelas juveniles</li>
+                        <li>Navegar por internet</li>
+                    </ul>
+                </div>
+
+                <div class="panel">
+                    <div class="panel-title">Intereses &hearts;</div>
+                    <ul>
+                        <li><b>Música:</b> BTS, TWICE, NewJeans, CORTIS</li>
+                        <li><b>Tecnología</b></li>
+                        <li><b>Diseño</b></li>
+                        <li><b>Idiomas</b></li>
+                        <li><b>Lectura</b></li>
+                        <li><b>Comedias románticas</b></li>
+                        <li><b>Pop culture y celebridades</b></li>
+                    </ul>
+                </div>
+
+                <div class="panel">
+                    <div class="panel-title">Habilidades propias que considero importantes &hearts;</div>
+                    <ul>
+                        <li>Capacidad de adaptación a obstáculos.</li>
+                        <li>Comunicación con los demás.</li>
+                        <li>Liderazgo natural para asumir el rol de lider o guía.</li>
+                    </ul>
+                </div>
+
+
+            </div>
+
+            <!-- Columna del mediooo -->
+            <div class="col-md-6">
+                <h1 class="main-title">Bienvenid@ a mi sitio web!!</h1>
+                
+                <div class="panel">
+                    <div style="text-align: center; margin-bottom: 15px;">
+                        <a href="img/jessica.jpg" target="_blank" title="Ver foto completa">
+                            <img class="foto_perfil" alt="Foto de Jessica" src="img/jessica.jpg">
+                        </a>
+                    </div>
+
+                    <h3>✿ ¡Hola, soy Jessica!</h3>
+                    <p>Soy <b>Jessica Ramírez Valenzuela</b>, tengo 19 años y nací el 16 de abril del 2007 en <i>Ciudad Juárez, Chihuahua</i>. Soy una persona sencilla, responsable, generosa y amable. Abrazo mi introversión como parte fundamental de quién soy.</p>
+                    
+                    <div class="quote-box">
+                        <q>No quiero vivir intentando demostrar que soy suficiente; quiero vivir descubriendo todo lo que puedo llegar a ser</q>
+                    </div>
+
+                    <p>Actualmente curso el TSU en <b><i>Desarrollo de Software Multiplataforma</i></b> en la poderosa <b><i>Universidad Tecnológica de Ciudad Juárez</i></b>. Me considero resiliente y capaz de adaptarme ante los obstáculos.</p>
+                    <hr class="separador">
+
+                    <h3 id="metas">✿ Mis Metas</h3>
+                    <ol>
+                        <li><b>A 5 años:</b> 
+                            <ul>
+                                <li>Terminar la carrera de <b>Desarrollo de software</b> y titularme</li>
+                                <li>Conseguir mi primer empleo Junior en alguna empresa en el área de TI.</li>
+                                <li>Dominar las habilidades necesarias para resolver problemas en el trabajo.</li>
+                                <li>Mudarme a un lugar tranquilo y <b>propio.</b></li>
+                                <li>Mantener una rutina equilibrada entre la disciplina profesional y la disciplina para cuidar mi salud física y mental.</li>
+                            </ul>
+                        </li>
+                        <li><b>A 10 años:</b> 
+                            <ul>
+                                <li>Alcanzar la independencia financiera total para vivir sin preocupaciones económicas.</li>
+                                <li>Ascender a un rol de liderazgo técnico o Senior.</li>
+                                <li>Construir una reputación profesional sólida.</li>
+                                <li>Cumplir mis sueños de viajar por el mundo antes de casarme o tener hijos.</li>
+                            </ul>
+                        </li>
+                        <li><b>A 20 años:</b> 
+                            <ul>
+                                <li>Seguir teniendo un puesto fijo en alguna empresa con un puesto conveniente.</li>
+                                <li>Disfrutar de un estilo de vida apacible, trabajando desde casa.</li>
+                                <li>Tener un familia pequeña y feliz.</li>
+                            </ul>
+                        </li>
+                    </ol>
+                </div>
+            </div>
+
+            <!-- Columna de la derechaaaa uwu -->
+            <div class="col-md-3">
+                <div class="panel">
+                    <div class="panel-title">Info</div>
+                    <ul style="list-style-type: none; padding-left: 0; font-size: 0.85rem;">
+                        <li><b>Nombre:</b> Jessica Ramírez</li>
+                        <li><b>Email:</b> jessicarmz1604@gmail.com</li>
+                        <li><b>Estado:</b> Estudiando UwU 💻</li>
+                    </ul>
+                </div>
+
+                <div class="panel">
+                    <div class="panel-title">navegación</div>
+                    <ul style="list-style-type: none; padding-left: 0; text-align: center;">
+                        <li><a href="principal.html">&starf; Inicio</a></li>
+                        <li><a href="#metas">&starf; Mis metas</a></li>
+                        <li><a href="#Preguntas">&starf; Preguntas</a></li>
+                    </ul>
+                </div>
+                
+                <div class="panel" style="text-align: center; background-color: #f9f0f0;">
+                    <div class="panel-title" style="background-color: #fff; border-color: #d19a9a; color: #d19a9a;">portafolio</div>
+                    <p style="font-size: 0.85rem;">Mis evidencias y ejemplos de clase:</p>
+                    <a href="Portafolio.html" style="font-size: 1.2rem;">✨ Entrar ✨</a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="row">
+            <div class="col-md-12">
+                <div class="panel">
+                    <div class="panel-title" id="Preguntas">Preguntas y respuestas</div>
+                    <table>
+                        <tr>
+                            <th>Pregunta</th>
+                            <th>Mi Respuesta</th>
+                        </tr>
+                        <tr>
+                            <td><b>Si fueras económicamente independiente, ¿qué harías con tu dinero?</b></td>
+                            <td>Lo invertiría en mi salud física y mental, compraría TODO lo que quisiera y viajaría a todos los lugares posibles en el mundo.</td>
+                        </tr>
+                        <tr>
+                            <td><b>¿Cuál es el lugar del mundo que más te gustaría visitar si pudieras y por qué?</b></td>
+                            <td>Suecia o Noruega, por su naturaleza verde y tranquilidad, incluso podría me mudaría ahí</td>
+                        </tr>
+                        <tr>
+                            <td><b>¿Cuál sería el lugar del mundo que menos te gustaría visitar y por qué?</b></td>
+                            <td>Países extremadamente conservadores donde casi todo está prohibido.</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

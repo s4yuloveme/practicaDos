@@ -1,0 +1,133 @@
+/* style.css */
+
+body {
+    background: repeating-linear-gradient(
+        90deg,
+        #e8ecd9,
+        #e8ecd9 15px,
+        #f4f5ed 15px,
+        #f4f5ed 30px);
+    font-family: 'Nunito', sans-serif;
+    color: #5c5c5c;
+    margin: 0;
+    padding: 20px 0;
+}
+
+.panel {
+    background-color: #fdfcf9;
+    border: 2px solid #cbd0a7;
+    border-radius: 12px;
+    padding: 15px;
+    margin-bottom: 20px;
+    box-shadow: 3px 3px 0px rgba(203, 208, 167, 0.5);
+}
+
+.panel-title {
+    background-color: #f2f3e6;
+    border: 1px dashed #cbd0a7;
+    border-radius: 8px;
+    font-family: 'Fredoka One', cursive;
+    color: #929a68;
+    text-align: center;
+    padding: 5px;
+    margin-bottom: 15px;
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+}
+
+h1.main-title {
+    font-family: 'Fredoka One', cursive;
+    color: #929a68;
+    text-align: center;
+    font-size: 2.5rem;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px #fdfcf9, 4px 4px #cbd0a7;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-family: 'Fredoka One', cursive;
+    color: #d19a9a;
+    font-size: 1.2rem;
+    margin-top: 15px;
+}
+
+.foto_perfil {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 8px;
+    border: 3px solid #cbd0a7;
+    transition: transform 0.3s ease; 
+}
+
+.foto_perfil:hover {
+    transform: scale(1.02);
+    border-color: #d19a9a;
+}
+
+a { 
+    color: #b88686;
+    text-decoration: none; 
+    font-weight: bold; 
+}
+
+a:hover { 
+    color: #929a68;
+    text-decoration: underline dashed;
+}
+
+/* Estilos extra para el menú de navegación */
+.nav-link {
+    color: #b88686 !important;
+    font-weight: bold;
+}
+.nav-link:hover {
+    color: #929a68 !important;
+    text-decoration: underline dashed;
+}
+
+ul, ol {
+    padding-left: 20px; 
+    font-size: 0.95rem; 
+}
+
+table {
+    width: 100%; 
+    font-size: 0.85rem; 
+    border-collapse: separate; 
+    border-spacing: 0; 
+    margin-top: 15px; 
+}
+
+th, td { 
+    border: 1px dashed #cbd0a7;
+    padding: 10px; 
+    text-align: left; 
+}
+
+th { 
+    background-color: #f2f3e6; 
+    font-family: 'Fredoka One', cursive; 
+    color: #929a68; 
+    text-align: center; 
+}
+
+td { 
+    background-color: #fff; 
+}
+
+.quote-box {
+    font-style: italic;
+    text-align: center;
+    background-color: #f9f0f0;
+    padding: 10px;
+    border-radius: 10px;
+    border-left: 4px solid #d19a9a;
+    margin: 15px 0;
+}
+
+hr.separador {
+    border-top: 2px dashed #cbd0a7;
+    margin: 20px 0;
+    opacity: 1;
+}
