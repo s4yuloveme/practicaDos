@@ -1,0 +1,46 @@
+h1{
+            color: seagreen;
+            text-align: center;
+        }
+        h2{
+            color: aquamarine;
+            text-align: center;
+        }
+        h4{
+            color: tomato;
+            font-size: 150%;
+        }
+        .leftPanel{
+            position:absolute;
+            left: auto;
+            right: auto;
+        }
+        .middlePanel{
+			position:absolute;
+			vertical-align:middle;
+			left:30%; right:30%; margin:auto;
+			left:0; right:0;
+			width:650px;
+			border-left-width:1px;
+			border-right-width:1px;
+			border-top-width:0px;
+			border-bottom-width:0px;
+			border-style: solid;
+			border-color: blue;
+		}
+		
+		.rightPanel{
+			position:absolute;
+			left: auto; right:auto;
+			font-weight: bold
+		}
+			
+		.footer{
+			position:absolute;
+			vertical-align:middle;
+			left:30%; right:30%; margin:auto;
+			left:0; right:0;
+			width:650px;
+			text-align:center;
+			bottom:0; height:45px;
+		}
